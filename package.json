@@ -1,22 +1,39 @@
 {
-  "name": "tlsh",
-  "version": "1.0.8",
-  "description": "JavaScript port of TLSH (Trend Locality Sensitive Hash)",
-  "main": "lib/tlsh.js",
-  "author": "idealista <labs@idealista.com> (http://www.idealista.com/labs/blog/)",
-  "homepage": "https://github.com/idealista/tlsh-js",
-  "license": "Apache-2.0",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/idealista/tlsh-js.git"
+  "_from": "tlsh",
+  "_id": "tlsh@1.0.8",
+  "_inBundle": false,
+  "_integrity": "sha512-Ke+nJIOo1bG6TKDiTRmVBLHARad+p7bSPdNpErx6XhmQRa2M4ry1VDJbID6OeXQn2YnN7hWBmAFbdtUFywNMmQ==",
+  "_location": "/tlsh",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "tlsh",
+    "name": "tlsh",
+    "escapedName": "tlsh",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/tlsh/-/tlsh-1.0.8.tgz",
+  "_shasum": "8c52fc11ad96f067a849127af01d0e55ad4a5082",
+  "_spec": "tlsh",
+  "_where": "/Users/admin/Projects/ds/rsg/scrapers/site-analyzer",
+  "author": {
+    "name": "idealista",
+    "email": "labs@idealista.com",
+    "url": "http://www.idealista.com/labs/blog/"
   },
   "bugs": {
     "url": "https://github.com/idealista/tlsh-js/issues"
   },
-  "keywords": [
-    "tlsh",
-    "hash"
-  ],
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "JavaScript port of TLSH (Trend Locality Sensitive Hash)",
   "devDependencies": {
     "cached-path-relative": ">=1.0.2",
     "expect.js": "^0.3.1",
@@ -26,8 +43,21 @@
     "grunt-mocha-test": "^0.12.7",
     "mocha": "5.2.0"
   },
+  "homepage": "https://github.com/idealista/tlsh-js",
+  "keywords": [
+    "tlsh",
+    "hash"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "name": "tlsh",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idealista/tlsh-js.git"
+  },
   "scripts": {
     "prepare": "grunt browserify",
     "test": "grunt test"
-  }
+  },
+  "version": "1.0.8"
 }
